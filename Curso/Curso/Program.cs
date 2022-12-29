@@ -4,63 +4,91 @@ using System.Globalization;
 namespace Course {
     class Program {
         static void Main(string[] args) {
-            
+
+            //Operadores de Atribuição
+            /*
+                        int a = 10;
+                        Console.WriteLine(a);
+
+                        int b = a++;
+                        Console.WriteLine(b);
+
+                        int c = ++a;
+                        Console.WriteLine(c); 
+
+                        a += 2;
+                        Console.WriteLine(a);
+
+                        a *= 3;
+                        Console.WriteLine(a);
+
+                        a++;
+                        Console.WriteLine(a);
+
+                        string s = "ABC";
+                        Console.WriteLine(s);
+
+                        s += "DEF";
+                        Console.WriteLine(s);
+            */
+
+
+
             //Saida de dados
+            /*
+                        char genero = 'M';
+                        int idade = 25;
+                        double saldo = 902034.344586;
+                        string nome = "Luis";
 
-/*
-            char genero = 'M';
-            int idade = 25;
-            double saldo = 902034.344586;
-            string nome = "Luis";
+                        Console.Write("Bom dia!");  //não quebra linha
+                        Console.WriteLine(nome);    //quebra linha
+                        Console.WriteLine(genero);
+                        Console.WriteLine(idade);
+                        Console.WriteLine("----------------------");
+                        Console.WriteLine(saldo);
+                        Console.WriteLine(saldo.ToString("F2"));
+                        Console.WriteLine("----------------------");
+                        Console.WriteLine("Olá " + nome);
+                        Console.WriteLine("Saldo: R$" + saldo.ToString("F2", CultureInfo.InvariantCulture)); //coloca o ponto para separar - tem que ter o 'using System.Globalization;' no começo
 
-            Console.Write("Bom dia!");  //não quebra linha
-            Console.WriteLine(nome);    //quebra linha
-            Console.WriteLine(genero);
-            Console.WriteLine(idade);
-            Console.WriteLine("----------------------");
-            Console.WriteLine(saldo);
-            Console.WriteLine(saldo.ToString("F2"));
-            Console.WriteLine("----------------------");
-            Console.WriteLine("Olá " + nome);
-            Console.WriteLine("Saldo: R$" + saldo.ToString("F2", CultureInfo.InvariantCulture)); //coloca o ponto para separar - tem que ter o 'using System.Globalization;' no começo
+                        Console.WriteLine("----------------------");
 
-            Console.WriteLine("----------------------");
+                        //PlaceHolders
+                        Console.WriteLine("{0} tem {1} anos e saldo de {2:F2} reais", nome, idade, saldo);
+                        Console.WriteLine("----------------------");
 
-            //PlaceHolders
-            Console.WriteLine("{0} tem {1} anos e saldo de {2:F2} reais", nome, idade, saldo);
-            Console.WriteLine("----------------------");
+                        //Concatenação
+                        Console.WriteLine($"{nome} tem {idade} anos e saldo de {saldo:F2} reais");
+                        Console.WriteLine("----------------------");
 
-            //Concatenação
-            Console.WriteLine($"{nome} tem {idade} anos e saldo de {saldo:F2} reais");
-            Console.WriteLine("----------------------");
-
-            //Interpolação
-            Console.WriteLine(nome + " tem " + idade + " anos e saldo de " + saldo.ToString("F2") + " reais");
-*/
+                        //Interpolação
+                        Console.WriteLine(nome + " tem " + idade + " anos e saldo de " + saldo.ToString("F2") + " reais");
+            */
 
             //Exercicio de fixação - Saida de dados
-            
-            string produto1 = "Computador";
-            string produto2 = "Mesa de escritório";
+            /*
+                        string produto1 = "Computador";
+                        string produto2 = "Mesa de escritório";
 
-            byte idade = 30;
-            int codigo = 5290;
-            char genero = 'M';
+                        byte idade = 30;
+                        int codigo = 5290;
+                        char genero = 'M';
 
-            double preco1 = 2100.0;
-            double preco2 = 650.50;
-            double medida = 53.234567;
+                        double preco1 = 2100.0;
+                        double preco2 = 650.50;
+                        double medida = 53.234567;
 
-            Console.WriteLine("Produtos:");
-            Console.WriteLine($"{produto1} - Preço $ {preco1:F2}");
-            Console.WriteLine($"{produto2} - Preço $ {preco2:F2}");
-            Console.WriteLine();
-            Console.WriteLine($"Registro: {idade} anos de idade, código {codigo} e gênero: {genero}");
-            Console.WriteLine();
-            Console.WriteLine($"Medida com oito casas decimais: {medida:F8}");
-            Console.WriteLine($"Arredondado (três casas decimais): {medida:F3}");
-            Console.WriteLine($"Separador decimal invariant culture: {medida.ToString("F3", CultureInfo.InvariantCulture)}");
-
+                        Console.WriteLine("Produtos:");
+                        Console.WriteLine($"{produto1} - Preço $ {preco1:F2}");
+                        Console.WriteLine($"{produto2} - Preço $ {preco2:F2}");
+                        Console.WriteLine();
+                        Console.WriteLine($"Registro: {idade} anos de idade, código {codigo} e gênero: {genero}");
+                        Console.WriteLine();
+                        Console.WriteLine($"Medida com oito casas decimais: {medida:F8}");
+                        Console.WriteLine($"Arredondado (três casas decimais): {medida:F3}");
+                        Console.WriteLine($"Separador decimal invariant culture: {medida.ToString("F3", CultureInfo.InvariantCulture)}");
+            */
 
 
 
