@@ -1,0 +1,15 @@
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\net6.0\PrimeiroProjeto.exe
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\net6.0\PrimeiroProjeto.deps.json
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\net6.0\PrimeiroProjeto.runtimeconfig.json
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\net6.0\PrimeiroProjeto.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\bin\Debug\net6.0\PrimeiroProjeto.pdb
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net6.0\PrimeiroProjeto.csproj.AssemblyReference.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net6.0\PrimeiroProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net6.0\PrimeiroProjeto.AssemblyInfoInputs.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net6.0\PrimeiroProjeto.AssemblyInfo.cs
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net6.0\PrimeiroProjeto.csproj.CoreCompileInputs.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net6.0\PrimeiroProjeto.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net6.0\refint\PrimeiroProjeto.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net6.0\PrimeiroProjeto.pdb
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net6.0\PrimeiroProjeto.genruntimeconfig.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\PrimeiroProjeto\PrimeiroProjeto\obj\Debug\net6.0\ref\PrimeiroProjeto.dll
