@@ -5,6 +5,28 @@ namespace Course {
     class Program {
         static void Main(string[] args) {
 
+            //Conversão implicita e casting
+
+            float x = 4.5f;
+            double y = x; //aceita normalmente
+
+            Console.WriteLine(y);
+            double a = 5.3;
+
+            float b = (float)a; //força a variavel para aceitar a outra
+            Console.WriteLine(b);
+
+            int c = (int)a; //força para aceitar o inteiro mesmo perdendo informação
+            Console.WriteLine(c);
+
+            int d = 5;
+            int e = 2;
+
+            double resultado = (double)d / e;
+            Console.WriteLine(resultado);
+
+
+
             //Operadores de Atribuição
             /*
                         int a = 10;
