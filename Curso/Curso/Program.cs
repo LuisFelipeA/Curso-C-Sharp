@@ -7,29 +7,53 @@ namespace Course {
 
             //Entrada de Dados
 
-            Console.Write("Seu nome: ");
-            string nome = Console.ReadLine();
-            Console.WriteLine($"Ola, {nome}");
-            Console.WriteLine("-------------");
+            /*
+                        Console.Write("Nome: ");
+                        string nome = Console.ReadLine();
 
-            Console.Write("Digite algo 1: ");
-            string x = Console.ReadLine();
-            Console.Write("Digite algo 2: ");
-            string y = Console.ReadLine();
-            Console.Write("Digite algo 3: ");
-            string z = Console.ReadLine();
-            Console.WriteLine($"{x}, {y}, {z}");
-            Console.WriteLine("-------------");
+                        Console.Write("Sexo: ");
+                        char sexo = char.Parse(Console.ReadLine());
+                       
+                        Console.Write("Idade: ");
+                        int idade = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Testando comando Split");
-            Console.Write("Digite palavras separando por espaço: ");
-            string[] vet = Console.ReadLine().Split(' ');
-            string p1 = vet[0];
-            string p2 = vet[1];
-            string p3 = vet[2];
+                        Console.Write("Altura: ");
+                        double altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.WriteLine($"{p1}, {p2}, {p3}");
+                        Console.WriteLine($"Nome: {nome}, idade: {idade}, sexo: {sexo}, Altura: {altura}");
+            
+                        Console.WriteLine("Digite seu nome, idade e altura (mesma linha, separado por espaço)");
+                        string[] dados = Console.ReadLine().Split(' ');
 
+                        string nome2 = dados[0];
+                        int idade2 = int.Parse(dados[1]);
+                        double altura2 = double.Parse(dados[2]);
+
+                        Console.WriteLine($"seu nome é {nome2}, tem {idade2} anos e {altura2.ToString("F2", CultureInfo.InvariantCulture)}m de altura!");
+
+                        Console.Write("Seu nome: ");
+                        string nome = Console.ReadLine();
+                        Console.WriteLine($"Ola, {nome}");
+                        Console.WriteLine("-------------");
+
+                        Console.Write("Digite algo 1: ");
+                        string x = Console.ReadLine();
+                        Console.Write("Digite algo 2: ");
+                        string y = Console.ReadLine();
+                        Console.Write("Digite algo 3: ");
+                        string z = Console.ReadLine();
+                        Console.WriteLine($"{x}, {y}, {z}");
+                        Console.WriteLine("-------------");
+
+                        Console.WriteLine("Testando comando Split");
+                        Console.Write("Digite palavras separando por espaço: ");
+                        string[] vet = Console.ReadLine().Split(' ');
+                        string p1 = vet[0];
+                        string p2 = vet[1];
+                        string p3 = vet[2];
+
+                        Console.WriteLine($"{p1}, {p2}, {p3}");
+            */
 
             //Operadores aritméticos
             /*
