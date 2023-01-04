@@ -7,21 +7,21 @@ namespace Course {
 
             //Estrutura Condicional (if-else)
 
-
-            Console.Write("Qual a hora atual: ");
-            int hora = int.Parse(Console.ReadLine());
-
-            if (hora < 12) {
-                Console.WriteLine("Bom dia");
-            }
-            else if (hora < 18) {
-                Console.WriteLine("Boa tarde");
-            }
-            else {
-                Console.WriteLine("Boa noite");
-            }
-
             /*
+                        Console.Write("Qual a hora atual: ");
+                        int hora = int.Parse(Console.ReadLine());
+
+                        if (hora < 12) {
+                            Console.WriteLine("Bom dia");
+                        }
+                        else if (hora < 18) {
+                            Console.WriteLine("Boa tarde");
+                        }
+                        else {
+                            Console.WriteLine("Boa noite");
+                        }
+
+            
                         Console.Write("Digite um numero inteiro: ");
                         int n1 = int.Parse(Console.ReadLine());
 
