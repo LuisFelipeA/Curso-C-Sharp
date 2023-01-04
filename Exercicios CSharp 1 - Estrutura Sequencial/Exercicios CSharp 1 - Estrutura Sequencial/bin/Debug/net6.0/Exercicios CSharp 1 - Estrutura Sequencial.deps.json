@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Exercicios CSharp 1 - Estrutura Sequencial/1.0.0": {
+        "runtime": {
+          "Exercicios CSharp 1 - Estrutura Sequencial.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exercicios CSharp 1 - Estrutura Sequencial/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
