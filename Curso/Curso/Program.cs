@@ -5,6 +5,35 @@ namespace Course {
     class Program {
         static void Main(string[] args) {
 
+            //Estrutura Condicional (if-else)
+
+
+            Console.Write("Qual a hora atual: ");
+            int hora = int.Parse(Console.ReadLine());
+
+            if (hora < 12) {
+                Console.WriteLine("Bom dia");
+            }
+            else if (hora < 18) {
+                Console.WriteLine("Boa tarde");
+            }
+            else {
+                Console.WriteLine("Boa noite");
+            }
+
+            /*
+                        Console.Write("Digite um numero inteiro: ");
+                        int n1 = int.Parse(Console.ReadLine());
+
+                        if (n1 % 2 == 0) {
+                            Console.WriteLine($"O numero {n1} é par");
+                        }
+                        else {
+                            Console.WriteLine($"O numero {n1} é impar");
+                        }
+            /*
+
+
             //Operadores Lógicos
             /*
                         bool e = 2 > 3 && 4 != 5;   //False
