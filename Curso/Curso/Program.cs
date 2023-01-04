@@ -5,6 +5,30 @@ namespace Course {
     class Program {
         static void Main(string[] args) {
 
+            //Operadores Lógicos
+            /*
+                        bool e = 2 > 3 && 4 != 5;   //False
+                        bool ou = 2 > 3 || 4 != 5;  //True
+                        bool nao = !(2 > 3) && 4 != 5;  //True
+
+                        Console.WriteLine(e);
+                        Console.WriteLine(ou);
+                        Console.WriteLine(nao);
+            */
+
+
+            //Operadores comparativos
+
+            /*
+                        > maior
+                        < menor
+                        >= maior ou igual
+                        <= menor ou igual
+                        == igual
+                        != diferente
+            */
+
+
             //Entrada de Dados
 
             /*
