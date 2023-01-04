@@ -1,0 +1,15 @@
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\bin\Debug\net6.0\Exercicios - Estrutura Condicional.exe
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\bin\Debug\net6.0\Exercicios - Estrutura Condicional.deps.json
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\bin\Debug\net6.0\Exercicios - Estrutura Condicional.runtimeconfig.json
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\bin\Debug\net6.0\Exercicios - Estrutura Condicional.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\bin\Debug\net6.0\Exercicios - Estrutura Condicional.pdb
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\obj\Debug\net6.0\Exercicios - Estrutura Condicional.csproj.AssemblyReference.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\obj\Debug\net6.0\Exercicios - Estrutura Condicional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\obj\Debug\net6.0\Exercicios - Estrutura Condicional.AssemblyInfoInputs.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\obj\Debug\net6.0\Exercicios - Estrutura Condicional.AssemblyInfo.cs
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\obj\Debug\net6.0\Exercicios - Estrutura Condicional.csproj.CoreCompileInputs.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\obj\Debug\net6.0\Exercicios - Estrutura Condicional.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\obj\Debug\net6.0\refint\Exercicios - Estrutura Condicional.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\obj\Debug\net6.0\Exercicios - Estrutura Condicional.pdb
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\obj\Debug\net6.0\Exercicios - Estrutura Condicional.genruntimeconfig.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura Condicional\Exercicios - Estrutura Condicional\obj\Debug\net6.0\ref\Exercicios - Estrutura Condicional.dll
