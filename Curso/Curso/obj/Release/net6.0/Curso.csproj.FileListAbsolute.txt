@@ -1,0 +1,15 @@
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\bin\Release\net6.0\Curso.exe
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\bin\Release\net6.0\Curso.deps.json
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\bin\Release\net6.0\Curso.runtimeconfig.json
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\bin\Release\net6.0\Curso.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\bin\Release\net6.0\Curso.pdb
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\obj\Release\net6.0\Curso.csproj.AssemblyReference.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\obj\Release\net6.0\Curso.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\obj\Release\net6.0\Curso.AssemblyInfoInputs.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\obj\Release\net6.0\Curso.AssemblyInfo.cs
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\obj\Release\net6.0\Curso.csproj.CoreCompileInputs.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\obj\Release\net6.0\Curso.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\obj\Release\net6.0\refint\Curso.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\obj\Release\net6.0\Curso.pdb
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\obj\Release\net6.0\Curso.genruntimeconfig.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Curso\Curso\obj\Release\net6.0\ref\Curso.dll

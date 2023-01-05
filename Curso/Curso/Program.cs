@@ -5,23 +5,39 @@ namespace Course {
     class Program {
         static void Main(string[] args) {
 
-            //Estrutura Repetitiva (While)
+            //Estrutura Repetitiva (for)
 
-            double raiz = 1;
+            Console.Write("Quantos numeros ira digitar? ");
+            int n = int.Parse(Console.ReadLine());
 
-            while (raiz > 0) {
+            int soma = 0;
 
-                Console.Write("Digite um numero para ver a raiz quadrada [Ou um numero negativo para sair]: ");
-                raiz = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-
-                if (raiz > 0) {
-                    Console.WriteLine($"Raiz: {Math.Sqrt(raiz).ToString("F3", CultureInfo.InvariantCulture)}");
-                }
-                else {
-                    Console.WriteLine("Fim");
-                }
+            for (int i = 1; i <= n; i++) {
+                Console.Write($"Digite valor #{i}: ");
+                int valor = int.Parse(Console.ReadLine());
+                soma += valor;
             }
 
+            Console.WriteLine($"Soma: {soma}");
+
+            //Estrutura Repetitiva (While)
+
+            /*
+                        double raiz = 1;
+
+                        while (raiz > 0) {
+
+                            Console.Write("Digite um numero para ver a raiz quadrada [Ou um numero negativo para sair]: ");
+                            raiz = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                            if (raiz > 0) {
+                                Console.WriteLine($"Raiz: {Math.Sqrt(raiz).ToString("F3", CultureInfo.InvariantCulture)}");
+                            }
+                            else {
+                                Console.WriteLine("Fim");
+                            }
+                        }
+            */
 
             //Debugging
             /*
