@@ -12,7 +12,7 @@ namespace Course {
             int n2 = int.Parse(Console.ReadLine());
             int n3 = int.Parse(Console.ReadLine());
 
-            int resultado = Maior(n1, n2, n3);
+            int resultado = Maior(n1, n2, n3);  //Função no final da pagina
 
             Console.WriteLine($"Maior: {resultado}");
 
