@@ -1,0 +1,15 @@
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\bin\Debug\net6.0\Exercicios - Estrutura While.exe
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\bin\Debug\net6.0\Exercicios - Estrutura While.deps.json
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\bin\Debug\net6.0\Exercicios - Estrutura While.runtimeconfig.json
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\bin\Debug\net6.0\Exercicios - Estrutura While.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\bin\Debug\net6.0\Exercicios - Estrutura While.pdb
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\obj\Debug\net6.0\Exercicios - Estrutura While.csproj.AssemblyReference.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\obj\Debug\net6.0\Exercicios - Estrutura While.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\obj\Debug\net6.0\Exercicios - Estrutura While.AssemblyInfoInputs.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\obj\Debug\net6.0\Exercicios - Estrutura While.AssemblyInfo.cs
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\obj\Debug\net6.0\Exercicios - Estrutura While.csproj.CoreCompileInputs.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\obj\Debug\net6.0\Exercicios - Estrutura While.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\obj\Debug\net6.0\refint\Exercicios - Estrutura While.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\obj\Debug\net6.0\Exercicios - Estrutura While.pdb
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\obj\Debug\net6.0\Exercicios - Estrutura While.genruntimeconfig.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Exercicios - Estrutura While\Exercicios - Estrutura While\obj\Debug\net6.0\ref\Exercicios - Estrutura While.dll
