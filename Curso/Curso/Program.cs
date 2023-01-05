@@ -5,23 +5,62 @@ namespace Course {
     class Program {
         static void Main(string[] args) {
 
+            //Estrutura Repetitiva (While)
+
+            double raiz = 1;
+
+            while (raiz > 0) {
+
+                Console.Write("Digite um numero para ver a raiz quadrada [Ou um numero negativo para sair]: ");
+                raiz = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                if (raiz > 0) {
+                    Console.WriteLine($"Raiz: {Math.Sqrt(raiz).ToString("F3", CultureInfo.InvariantCulture)}");
+                }
+                else {
+                    Console.WriteLine("Fim");
+                }
+            }
+
+
+            //Debugging
+            /*
+            
+                        Teclas
+
+                         * F9 - Marca/Desmarca breakingpoint (onde começa o debug)
+                         * F5 - Inicia/Continua o debug
+                         * F10 - Executa passo a passo (pula as funções)
+                         * F11 - Executa passo a passo (entra nas funções)
+                         * SHIFT + F11 - Sai do metodo em execução
+                         * SHIFT + F5 - Para o debug
+             
+                        Janelas
+                
+                         * Watch - Expressões personalizadas
+                         * Autos - Expressões detectadas pelo VS
+                         * Locals - Variaveis Locais
+
+            
+
+
             //Funções (sintaxe)
 
-            Console.WriteLine("Digite 3 numeros: ");
-            int n1 = int.Parse(Console.ReadLine());
-            int n2 = int.Parse(Console.ReadLine());
-            int n3 = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Digite 3 numeros: ");
+                        int n1 = int.Parse(Console.ReadLine());
+                        int n2 = int.Parse(Console.ReadLine());
+                        int n3 = int.Parse(Console.ReadLine());
 
-            int resultado = Maior(n1, n2, n3);  //Função no final da pagina
+                        int resultado = Maior(n1, n2, n3);  //Função no final da pagina
 
-            Console.WriteLine($"Maior: {resultado}");
+                        Console.WriteLine($"Maior: {resultado}");
 
 
 
 
             //Estrutura Condicional (if-else)
 
-            /*
+            
                         Console.Write("Qual a hora atual: ");
                         int hora = int.Parse(Console.ReadLine());
 
