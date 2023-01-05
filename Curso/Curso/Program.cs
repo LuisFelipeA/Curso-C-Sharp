@@ -5,6 +5,20 @@ namespace Course {
     class Program {
         static void Main(string[] args) {
 
+            //Funções (sintaxe)
+
+            Console.WriteLine("Digite 3 numeros: ");
+            int n1 = int.Parse(Console.ReadLine());
+            int n2 = int.Parse(Console.ReadLine());
+            int n3 = int.Parse(Console.ReadLine());
+
+            int resultado = Maior(n1, n2, n3);
+
+            Console.WriteLine($"Maior: {resultado}");
+
+
+
+
             //Estrutura Condicional (if-else)
 
             /*
@@ -280,6 +294,20 @@ namespace Course {
                         Console.WriteLine(n8);
                         Console.WriteLine(n9);
             */
+        }
+
+        static int Maior(int a, int b, int c) {
+            
+            if (a > b && a > c) {
+                return a;
+            }
+            else if (b > c) {
+                return b;
+            }
+            else {
+                return c;
+            }
+
         }
     }
 }
