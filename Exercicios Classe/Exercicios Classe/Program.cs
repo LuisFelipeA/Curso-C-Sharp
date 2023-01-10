@@ -6,6 +6,8 @@ namespace Classes {
     class Program {
         static void Main(string[] args) {
 
+            //Exercicio 1
+            /*
             Pessoa p1 = new Pessoa();
             Pessoa p2 = new Pessoa();
 
@@ -30,10 +32,33 @@ namespace Classes {
             else {
                 Console.WriteLine("As duas pessoas tem a mesma idade");
             }
+            */
+
+
+            //Exercicio 2
+
+            Funcionario func1 = new Funcionario();
+            Funcionario func2 = new Funcionario();
+
+            Console.WriteLine("Dados do Funcionario 1:");
+            Console.Write("Nome: ");
+            func1.Nome = Console.ReadLine();
+            Console.Write("Salario: ");
+            func1.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+
+            Console.WriteLine("Dados do Funcionario 2:");
+            Console.Write("Nome: ");
+            func2.Nome = Console.ReadLine();
+            Console.Write("Salario: ");
+            func2.Salario = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            double SalarioMedio = (func1.Salario + func2.Salario) / 2;
+
+            Console.WriteLine($"Salario Medio: R${SalarioMedio.ToString("F2", CultureInfo.InvariantCulture)}");
 
 
 
-        
         }
 
     }
