@@ -16,12 +16,12 @@ namespace Exercicios_Classe {
             return Quantidade * Preco;
         }
 
-        public void AdcionarProdutos(int QtdAdcionar) {
-            Quantidade = Quantidade+ QtdAdcionar;
+        public void AdcionarProdutos(int quantidade) {
+            Quantidade = Quantidade+ quantidade;
         }
 
-        public void RemoverProdutos(int QtdRemover) {
-            Quantidade = (Quantidade - QtdRemover);
+        public void RemoverProdutos(int quantidade) {
+            Quantidade = (Quantidade - quantidade);
         }
 
         public override string ToString() {
