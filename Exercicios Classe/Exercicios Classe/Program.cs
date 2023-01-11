@@ -32,11 +32,11 @@ namespace Classes {
             else {
                 Console.WriteLine("As duas pessoas tem a mesma idade");
             }
-            
+
 
 
             //Exercicio 2
-            
+
             Funcionario func1 = new Funcionario();
             Funcionario func2 = new Funcionario();
 
@@ -56,7 +56,7 @@ namespace Classes {
             double SalarioMedio = (func1.Salario + func2.Salario) / 2;
 
             Console.WriteLine($"Salario Medio: R${SalarioMedio.ToString("F2", CultureInfo.InvariantCulture)}");
-            */
+
 
 
             //Estoque
@@ -82,7 +82,33 @@ namespace Classes {
             p1.RemoverProdutos(int.Parse(Console.ReadLine()));
 
             Console.WriteLine("Dados do atualizado: " + p1);
-        }
 
+
+            
+
+            //Exercicio 3
+
+            retangulo retangulo1 = new retangulo();
+
+            Console.Write("Digite a base do retangulo: ");
+            retangulo1.Base = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.Write("Digitea a altura do retangulo: ");
+            retangulo1.Altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.WriteLine($"Area: {retangulo1.Area().ToString("F2", CultureInfo.InvariantCulture)}");
+
+            Console.WriteLine($"Perimertro: {retangulo1.Perimetro().ToString("F2", CultureInfo.InvariantCulture)}");
+
+            Console.WriteLine($"Diagonal: {retangulo1.Diagonal().ToString("F2", CultureInfo.InvariantCulture)}");
+
+            */
+
+
+            //
+
+
+        }
     }
+
 }
