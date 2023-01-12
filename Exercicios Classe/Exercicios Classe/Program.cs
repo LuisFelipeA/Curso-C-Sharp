@@ -105,7 +105,29 @@ namespace Classes {
             */
 
 
-            //
+            //Exercicio 4
+
+            Funcionario func3 = new Funcionario();
+
+            Console.WriteLine("Digite os dados do funcionario: ");
+            Console.Write("Nome: ");
+            func3.Nome = Console.ReadLine();
+
+            Console.Write("Salario Bruto: ");
+            func3.SalarioBruto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.Write("Imposto:");
+            func3.Imposto = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.WriteLine(func3);
+
+            Console.Write("Digite a porcentagem para aumentar o salario: ");
+            func3.AumentarSalario(double.Parse(Console.ReadLine()));
+
+            Console.WriteLine("Dados Atualizados");
+
+            Console.WriteLine(func3);
+
 
 
         }
