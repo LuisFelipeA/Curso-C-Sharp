@@ -102,9 +102,7 @@ namespace Classes {
 
             Console.WriteLine($"Diagonal: {retangulo1.Diagonal().ToString("F2", CultureInfo.InvariantCulture)}");
 
-            */
-
-
+            
             //Exercicio 4
 
             Funcionario func3 = new Funcionario();
@@ -128,7 +126,24 @@ namespace Classes {
 
             Console.WriteLine(func3);
 
+            */
 
+            //Exercicio 5
+
+            Aluno aluno1 = new Aluno();
+
+            Console.Write("Nome do Aluno: ");
+            aluno1.Nome = Console.ReadLine();
+
+            Console.Write("Digite Nota 1: ");
+            aluno1.Nota1 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.Write("Digite Nota 2: ");
+            aluno1.Nota2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.Write("Digite Nota 3: ");
+            aluno1.Nota3 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.WriteLine($"Nota Final: {aluno1.NotaFinal().ToString("F2", CultureInfo.InvariantCulture)}");
+            Console.WriteLine(aluno1.Status());
 
         }
     }
