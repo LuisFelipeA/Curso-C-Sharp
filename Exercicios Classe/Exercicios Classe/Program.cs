@@ -129,7 +129,7 @@ namespace Classes {
             */
 
             //Exercicio 5
-
+            /*
             Aluno aluno1 = new Aluno();
 
             Console.Write("Nome do Aluno: ");
@@ -144,6 +144,20 @@ namespace Classes {
 
             Console.WriteLine($"Nota Final: {aluno1.NotaFinal().ToString("F2", CultureInfo.InvariantCulture)}");
             Console.WriteLine(aluno1.Status());
+            */
+
+
+            //Exercicios_Classe 6
+
+            Console.Write("Digite a cotação do dolar: ");
+            double cotacao = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            Console.Write("Digite o valor em dolares para comprar: ");
+            double dolar = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+            double real = Conversor_Moeda.DolarParaReal(cotacao, dolar);
+
+            Console.WriteLine($"Valor pago em reais: R${real.ToString("F2", CultureInfo.InvariantCulture)}");
 
         }
     }
