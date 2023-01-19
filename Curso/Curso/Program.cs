@@ -22,8 +22,6 @@ namespace Course {
             Console.WriteLine($"PI: {Calculadora.Pi.ToString("F2", CultureInfo.InvariantCulture)}");
 
 
-
-
             //Metodo - Função dentro da classe
             /*
             Triangulo x, y;
