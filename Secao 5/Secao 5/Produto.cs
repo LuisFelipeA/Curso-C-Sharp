@@ -9,13 +9,13 @@ namespace Construtores_this_sobrecarga_encapsulamento {
     internal class Produto {
 
         private string _nome;
-        private double _preco;
-        private int _quantidade;
+        public double Preco { get; private set; }
+        public int Quantidade { get; private set; }
         
         public Produto(string nome, double preco, int quantidade) {
             _nome = nome;
-            _preco = preco;
-            _quantidade = quantidade;
+            Preco = preco;
+            Quantidade = quantidade;
         }
 
         public string Nome {
@@ -27,36 +27,28 @@ namespace Construtores_this_sobrecarga_encapsulamento {
             }
         }
 
-        public double Preco {
-            get { return _preco; }
-        }
-
-        public int Quantidade {
-            get { return _quantidade; }
-        }
-
 
         public Produto(string nome, double preco) {
             _nome = nome;
-            _preco = preco;
-            _quantidade = 0;
+            Preco = preco;
+            Quantidade = 0;
         }
 
 
         public double ValorTotalEstoque() {
-            return _preco * _quantidade;
+            return Preco * Quantidade;
         }
 
         public void AdicionarProdutos(int quantidade) {
-            _quantidade += quantidade;
+            Quantidade += quantidade;
         }
 
         public void RemoverProdutos(int quantidade) {
-            _quantidade -= quantidade;
+            Quantidade -= quantidade;
         }
 
         public override string ToString() {
-            return "Produto: " + _nome + "\r\nPreço: $" + _preco.ToString("F2",CultureInfo.InvariantCulture) + "\r\nQuantidade: " + _quantidade;
+            return "Produto: " + _nome + "\r\nPreço: $" + Preco.ToString("F2",CultureInfo.InvariantCulture) + "\r\nQuantidade: " + Quantidade;
 
         }
     }
