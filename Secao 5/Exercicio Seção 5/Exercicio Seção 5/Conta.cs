@@ -1,21 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Exercicio_Seção_5 {
     internal class Conta {
 
-        private int _numeroConta;
+        public int NumeroConta { get; private set; }
         public string Nome { get; set;}
         public double Saldo { get; private set; }
         
         public Conta (int numeroConta, string nome) {
-            _numeroConta = numeroConta;
+            NumeroConta = numeroConta;
             Nome = nome;
             Saldo = 0;
+        }
+
+        public Conta(int numeroConta, string nome, double depositoInicial) : this(numeroConta, nome) {
+            Deposito(depositoInicial);
         }
 
         public void Deposito(double deposito) {
@@ -27,7 +27,7 @@ namespace Exercicio_Seção_5 {
         }
 
         public override string ToString() {
-            return "Conta: " + _numeroConta + ", Titular: " + Nome + ", Saldo: $" + Saldo.ToString("F2",CultureInfo.InvariantCulture);
+            return "Conta: " + NumeroConta + ", Titular: " + Nome + ", Saldo: $" + Saldo.ToString("F2",CultureInfo.InvariantCulture);
         }
     }
 }

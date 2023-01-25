@@ -6,19 +6,24 @@ namespace Exercicio {
     class Program {
         static void Main(string[] args) {
 
+            Conta conta1;
+
             Console.Write("Digite o numero da conta: ");
             int conta = int.Parse(Console.ReadLine());
             Console.Write("Digite o titular da conta: ");
             string nome = Console.ReadLine();
-            Console.Write("Havera deposito inicial: ");
+            Console.Write("Havera deposito inicial: (s/n) ");
             char depositoInicial = char.Parse(Console.ReadLine());
             
-            Conta conta1 = new Conta(conta, nome); 
+            
 
             if (depositoInicial == 's' || depositoInicial == 'S' ) {
                 Console.Write("Digite o deposito inicial: ");
                 double saldo = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-                conta1.Deposito(saldo);
+                conta1 = new Conta(conta, nome, saldo);
+            }
+            else {
+                conta1 = new Conta(conta, nome);
             }
 
             Console.WriteLine("Dados da conta:");
