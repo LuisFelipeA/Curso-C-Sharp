@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Secao_6__Listas_e_array {
     class Program {
@@ -34,7 +35,7 @@ namespace Secao_6__Listas_e_array {
             }
             else {
                 Console.WriteLine("Y is null");
-            }*/
+            }
 
             double? x = null;
             double? y = 10;
@@ -43,7 +44,24 @@ namespace Secao_6__Listas_e_array {
             double b = y ?? 5;
 
             Console.WriteLine(a);
-            Console.WriteLine(b);
+            Console.WriteLine(b);*/
+        
+
+            int n = int.Parse(Console.ReadLine());
+            double[] vect = new double[n];
+
+            for (int i = 0; i< n; i++) {
+                vect[i] = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            }
+
+            double sum = 0.0;
+            for (int i =0; i< n; i++) {
+                sum += vect[i];
+            }
+
+            double avg = sum/ n;
+
+            Console.WriteLine($"Altura Média: {avg.ToString("F2", CultureInfo.InvariantCulture)}");
         }
     }
 }
