@@ -6,6 +6,38 @@ namespace HerancaPolimorfismo
     {
         static void Main(string[] args)
         {
+            /*Upcasting e Downcasting*/
+
+            Account acc = new Account(1,"Joe",0.0);
+            BusinessAccount bacc = new BusinessAccount(2, "Maria", 0.0, 500.0);
+
+            //Upcasting
+
+            Account acc1 = bacc;
+            Account acc2 = new BusinessAccount(3, "Tommy", 10.0, 200.0);
+            Account acc3 = new SavingsAccount(4, "Luis", 123000, 80000);
+
+            //Downcasting
+
+            BusinessAccount acc4 = (BusinessAccount)acc2;
+            acc4.Loan(100.0);
+
+            if (acc3 is BusinessAccount)
+            {
+                //BusinessAccount acc5 = (BusinessAccount)acc3;
+                BusinessAccount acc5 = acc3 as BusinessAccount;
+                acc5.Loan(200.0);
+                Console.WriteLine("Loan!");
+            }
+
+            if (acc3 is SavingsAccount)
+            {
+                SavingsAccount acc6 = (SavingsAccount)acc3;
+                acc6.UpdateBalance();
+                Console.WriteLine("Update!");
+            }
+
+            /* Herança
             BusinessAccount account = new BusinessAccount(1, "Luis", 1273450.15, 100000.00);
             
             Console.WriteLine(account.Balance);
@@ -25,6 +57,7 @@ namespace HerancaPolimorfismo
             account.Loan(95000);
 
             Console.WriteLine(account.Balance);
+            */
         }
     }
 }
