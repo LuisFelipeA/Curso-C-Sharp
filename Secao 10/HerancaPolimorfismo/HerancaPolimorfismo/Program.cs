@@ -6,7 +6,19 @@ namespace HerancaPolimorfismo
     {
         static void Main(string[] args)
         {
-            /*Upcasting e Downcasting*/
+
+            /*Sobreposição, palavras virtual, override e base*/
+
+            Account acc1 = new Account(1, "Luis", 500.0);
+            Account acc2 = new SavingsAccount(2, "Maria", 500.0, 0.01);
+
+            acc1.WithDraw(10);
+            acc2.WithDraw(10);
+
+            Console.WriteLine(acc1.Balance);
+            Console.WriteLine(acc2.Balance);
+
+            /*Upcasting e Downcasting
 
             Account acc = new Account(1,"Joe",0.0);
             BusinessAccount bacc = new BusinessAccount(2, "Maria", 0.0, 500.0);
@@ -36,6 +48,9 @@ namespace HerancaPolimorfismo
                 acc6.UpdateBalance();
                 Console.WriteLine("Update!");
             }
+
+            */
+
 
             /* Herança
             BusinessAccount account = new BusinessAccount(1, "Luis", 1273450.15, 100000.00);
