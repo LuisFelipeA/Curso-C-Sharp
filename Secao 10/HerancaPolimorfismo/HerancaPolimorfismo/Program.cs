@@ -1,4 +1,6 @@
 ﻿using HerancaPolimorfismo.Entities;
+using System.Collections.Generic;
+using System.Globalization;
 
 namespace HerancaPolimorfismo
 {
@@ -7,7 +9,56 @@ namespace HerancaPolimorfismo
         static void Main(string[] args)
         {
 
-            /*Sobreposição, palavras virtual, override e base*/
+            /* Exercicio */
+
+            Console.Write("Enter the number of employess: ");
+            int n = int.Parse(Console.ReadLine());
+
+            List<Employee> listEmployees = new List<Employee>();
+
+            for (int i = 1; i <= n;i++)
+            {
+                Console.WriteLine($"Employee #{i} data:");
+                Console.Write("Outsourced (y/n)? ");
+                string outsourced = Console.ReadLine();
+
+                Console.Write("Name: ");
+                string name = Console.ReadLine();
+
+                Console.Write("Hours: ");
+                int hours = int.Parse(Console.ReadLine());
+
+                Console.Write("Value per hour: ");
+                double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                if (outsourced == "y")
+                {
+                    Console.Write("Additional charge: ");
+                    double additionalCharge = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                    Employee employee = new OutsourcedEmployee(name, hours, valuePerHour, additionalCharge);
+
+                    listEmployees.Add(employee);
+                }
+                else
+                {
+                    Employee employee = new Employee(name, hours, valuePerHour);
+
+                    listEmployees.Add(employee);
+                }
+            }
+
+            Console.WriteLine();
+
+            Console.WriteLine("PAYMENTS:");
+
+            foreach(Employee emp in listEmployees)
+            {
+                Console.WriteLine($"{emp.Name} - $ {emp.Payment().ToString("F2", CultureInfo.InvariantCulture)}");
+            }
+
+
+            /*Sobreposição, palavras virtual, override e base
 
             Account acc1 = new Account(1, "Luis", 500.0);
             Account acc2 = new SavingsAccount(2, "Maria", 500.0, 0.01);
@@ -17,6 +68,8 @@ namespace HerancaPolimorfismo
 
             Console.WriteLine(acc1.Balance);
             Console.WriteLine(acc2.Balance);
+
+            */
 
             /*Upcasting e Downcasting
 
