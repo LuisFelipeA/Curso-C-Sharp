@@ -35,9 +35,6 @@ namespace EnumeracaoComposicao
         }
     }
 
-
-
-
     /* Enumeração
     class Program
     {
