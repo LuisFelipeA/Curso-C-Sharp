@@ -1,5 +1,5 @@
 ﻿using HerancaPolimorfismo.Entities;
-using System.Collections.Generic;
+using HerancaPolimorfismo.Enum;
 using System.Globalization;
 
 namespace HerancaPolimorfismo
@@ -9,7 +9,51 @@ namespace HerancaPolimorfismo
         static void Main(string[] args)
         {
 
-            /* Exercicio */
+            /*Exercicio Métodos Abstratos*/
+
+            List<Shape> listShape = new List<Shape>();
+
+            Console.Write("Enter the number of shapes: ");
+            int n = int.Parse(Console.ReadLine());
+
+            for (int i = 1; i <= n; i++)
+            {
+                Console.WriteLine($"Shape #{i} data:");
+                Console.Write("Retangle or Circle (r/c)? ");
+                char type = char.Parse(Console.ReadLine());
+
+                Console.Write("Color (Black/Blue/Red): ");
+                Color color = Color.Parse<Color>(Console.ReadLine());
+
+                if (type == 'c')
+                {
+                    Console.Write("Radius: ");
+                    double radius = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                    listShape.Add(new Circle(color, radius));
+                }
+                else
+                {
+                    Console.Write("Width: ");
+                    double width = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+                    Console.Write("Height: ");
+                    double height = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+                    listShape.Add(new Rectangle(color, width, height));
+                }
+            }
+
+            Console.WriteLine();
+
+            Console.WriteLine("SHAPE AREAS: ");
+            
+            foreach (Shape shape in listShape)
+            {
+                Console.WriteLine(shape.Area().ToString("F2", CultureInfo.InvariantCulture));
+            }
+
+
+            /* Exercicio herança e polimorfismo
 
             Console.Write("Enter the number of employess: ");
             int n = int.Parse(Console.ReadLine());
@@ -56,7 +100,7 @@ namespace HerancaPolimorfismo
             {
                 Console.WriteLine($"{emp.Name} - $ {emp.Payment().ToString("F2", CultureInfo.InvariantCulture)}");
             }
-
+            */
 
             /*Sobreposição, palavras virtual, override e base
 
