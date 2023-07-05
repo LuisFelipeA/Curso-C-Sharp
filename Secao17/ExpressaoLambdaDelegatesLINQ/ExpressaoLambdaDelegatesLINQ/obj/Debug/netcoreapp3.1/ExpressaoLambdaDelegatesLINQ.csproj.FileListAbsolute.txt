@@ -1,0 +1,14 @@
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\bin\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.exe
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\bin\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.deps.json
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\bin\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.runtimeconfig.json
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\bin\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.runtimeconfig.dev.json
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\bin\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\bin\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.pdb
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\obj\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.csproj.AssemblyReference.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\obj\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\obj\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.AssemblyInfoInputs.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\obj\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.AssemblyInfo.cs
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\obj\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\obj\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.dll
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\obj\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.pdb
+C:\Users\Interficus\Desktop\Documentos\Curso C Sharp\Secao17\ExpressaoLambdaDelegatesLINQ\ExpressaoLambdaDelegatesLINQ\obj\Debug\netcoreapp3.1\ExpressaoLambdaDelegatesLINQ.genruntimeconfig.cache
