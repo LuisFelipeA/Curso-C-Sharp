@@ -1,7 +1,6 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 using Interfaces.Entities;
-using Interfaces.Services;
+using Interfaces.Enums;
 
 namespace Interfaces
 {
@@ -9,6 +8,23 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
+
+            /* Interface + Classe Abstrata */
+
+            IShape s1 = new Circle() { Radius = 2.0, Color = Color.White };
+            IShape s2 = new Rectangle() { Width = 3.5, Height = 4.2,  Color = Color.Black};
+
+            System.Console.WriteLine(s1);
+            System.Console.WriteLine(s2);
+
+
+
+
+
+
+
+            /* Interface  
+               
             Console.WriteLine("Enter rental data");
 
             Console.Write("Car model: ");
@@ -34,6 +50,8 @@ namespace Interfaces
 
             Console.WriteLine("INVOICE:");
             Console.WriteLine(carRental.Invoice);
+
+            */
         }
     }
 }
