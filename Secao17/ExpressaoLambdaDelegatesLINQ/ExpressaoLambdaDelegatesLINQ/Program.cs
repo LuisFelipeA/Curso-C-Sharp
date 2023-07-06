@@ -1,13 +1,32 @@
-﻿using ExpressaoLambdaDelegatesLINQ.Entities;
+﻿using ExpressaoLambdaDelegatesLINQ.Services;
 using System;
-using System.Collections.Generic;
 
 namespace ExpressaoLambdaDelegatesLINQ
 {
     internal class Program
     {
+
+        delegate double BinaryNumericOperation(double n1, double n2);
+
         static void Main(string[] args)
         {
+
+            /* Introdução a delegates */
+
+            double a = 10;
+            double b = 12;
+
+            BinaryNumericOperation op = CalculationService.Max;
+
+            double result = op(a, b);
+
+            Console.WriteLine(result);
+
+
+
+
+            /*
+
             List<Product> list = new List<Product>();
 
             list.Add(new Product("TV", 900.00));
@@ -21,6 +40,7 @@ namespace ExpressaoLambdaDelegatesLINQ
                 Console.WriteLine(p);
             }
 
+            */
         }
     }
 }
