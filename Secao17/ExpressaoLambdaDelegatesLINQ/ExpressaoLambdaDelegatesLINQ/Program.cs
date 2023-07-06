@@ -41,7 +41,6 @@ namespace ExpressaoLambdaDelegatesLINQ
                 Console.WriteLine(s);
             }
 
-
             /**/
 
 
