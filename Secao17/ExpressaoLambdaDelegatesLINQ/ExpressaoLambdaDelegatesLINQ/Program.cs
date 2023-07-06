@@ -2,7 +2,7 @@
 using ExpressaoLambdaDelegatesLINQ.Services;
 using System;
 using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
+using System.Linq;
 
 namespace ExpressaoLambdaDelegatesLINQ
 {
@@ -21,7 +21,33 @@ namespace ExpressaoLambdaDelegatesLINQ
             list.Add(new Product("Tablet", 350.50));
             list.Add(new Product("HD Case", 80.90));
 
-            /* Action (ForEach) */
+            /* Func (select) */
+
+            static string NameUpper(Product p)
+            {
+                return p.Name.ToUpper();
+            }
+
+            //List<string> result = list.Select(NameUpper).ToList();
+
+            //Func<Product, string> func = NameUpper;
+
+            Func<Product, string> func = p=> p.Name.ToUpper();
+
+            List<string> result = list.Select(func).ToList();
+
+            foreach (string s in result)
+            {
+                Console.WriteLine(s);
+            }
+
+
+            /**/
+
+
+
+
+            /* Action (ForEach) 
 
             static void UpdatePrice(Product p)
             {
@@ -44,6 +70,11 @@ namespace ExpressaoLambdaDelegatesLINQ
                 Console.WriteLine(p);
             }
 
+            */
+
+
+
+
             /* Predicate (RemoveAll) 
 
             //list.RemoveAll(p => p.Price >= 100.0);
@@ -58,6 +89,8 @@ namespace ExpressaoLambdaDelegatesLINQ
             */
 
 
+
+
             /* Introdução a delegates
 
             double a = 10;
@@ -69,6 +102,9 @@ namespace ExpressaoLambdaDelegatesLINQ
             op(a, b);
 
             */
+
+
+
 
             /*
 
