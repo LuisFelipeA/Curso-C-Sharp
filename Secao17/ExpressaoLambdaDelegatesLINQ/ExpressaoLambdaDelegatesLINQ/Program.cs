@@ -1,9 +1,12 @@
-﻿using ExpressaoLambdaDelegatesLINQ.Services;
+﻿using ExpressaoLambdaDelegatesLINQ.Entities;
+using ExpressaoLambdaDelegatesLINQ.Services;
 using System;
+using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ExpressaoLambdaDelegatesLINQ
 {
-    internal class Program
+    class Program
     {
 
         delegate void BinaryNumericOperation(double n1, double n2);
@@ -11,7 +14,28 @@ namespace ExpressaoLambdaDelegatesLINQ
         static void Main(string[] args)
         {
 
-            /* Introdução a delegates */
+            /* Predicate (RemoveAll) */
+
+            List<Product> list = new List<Product>();
+
+            list.Add(new Product("Tv", 900.00));
+            list.Add(new Product("Mouse", 50.00));
+            list.Add(new Product("Tablet", 350.50));
+            list.Add(new Product("HD Case", 80.90));
+
+            //list.RemoveAll(p => p.Price >= 100.0);
+
+            list.RemoveAll(ProductTest); //Função ProductTest la embaixo
+
+            foreach (Product p in list)
+            {
+                Console.WriteLine(p);
+            }
+
+
+
+
+            /* Introdução a delegates
 
             double a = 10;
             double b = 12;
@@ -21,8 +45,7 @@ namespace ExpressaoLambdaDelegatesLINQ
 
             op(a, b);
 
-
-
+            */
 
             /*
 
@@ -40,6 +63,11 @@ namespace ExpressaoLambdaDelegatesLINQ
             }
 
             */
+        }
+
+        public static bool ProductTest(Product p)
+        {
+            return p.Price >= 100.0;
         }
     }
 }
