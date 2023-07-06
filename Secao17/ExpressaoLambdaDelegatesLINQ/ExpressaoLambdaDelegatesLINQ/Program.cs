@@ -14,14 +14,37 @@ namespace ExpressaoLambdaDelegatesLINQ
         static void Main(string[] args)
         {
 
-            /* Predicate (RemoveAll) */
-
             List<Product> list = new List<Product>();
 
             list.Add(new Product("Tv", 900.00));
             list.Add(new Product("Mouse", 50.00));
             list.Add(new Product("Tablet", 350.50));
             list.Add(new Product("HD Case", 80.90));
+
+            /* Action (ForEach) */
+
+            static void UpdatePrice(Product p)
+            {
+                p.Price += p.Price * 0.1;
+            }
+
+            //list.ForEach(UpdatePrice);
+
+            //Action<Product> act = UpdatePrice;
+
+            Action<Product> act = p => { p.Price += p.Price * 0.1; };
+
+            //list.ForEach(act);
+
+            list.ForEach(p => {p.Price += p.Price * 0.1; });
+
+
+            foreach (Product p in list)
+            {
+                Console.WriteLine(p);
+            }
+
+            /* Predicate (RemoveAll) 
 
             //list.RemoveAll(p => p.Price >= 100.0);
 
@@ -32,7 +55,7 @@ namespace ExpressaoLambdaDelegatesLINQ
                 Console.WriteLine(p);
             }
 
-
+            */
 
 
             /* Introdução a delegates
@@ -69,5 +92,8 @@ namespace ExpressaoLambdaDelegatesLINQ
         {
             return p.Price >= 100.0;
         }
+
+
+
     }
 }
